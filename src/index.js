@@ -58,7 +58,6 @@ class Board extends React.Component {
 
     return (
       <div>
-      <a href="" className="button" onClick={ this.restartGame.bind(this) }>Restart Game</a>
         <div className="status">{status}</div>
         <div className="board-row">
           {this.renderSquare(0)}
@@ -75,6 +74,7 @@ class Board extends React.Component {
           {this.renderSquare(7)}
           {this.renderSquare(8)}
         </div>
+        <a href="" className="button" onClick={ this.restartGame.bind(this) }><button>Restart Game</button></a>
       </div>
 
     );
