@@ -11,11 +11,11 @@ body {
 }
 
 h1 {
-   margin: 10px 0 0px 0px;
+   margin: 0px 0 0px 0px;
 }
 
 ol, ul {
-  padding-left: 30px;
+  padding-left: 0px;
 }
 
 .board-row:after {

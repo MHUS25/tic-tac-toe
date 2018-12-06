@@ -93,9 +93,9 @@ class Game extends React.Component {
         'Go to move #' + move :
         'Restart Game';
       return (
-        <li li key={move}>
+        <ul li key={move}>
           <button onClick={() => this.jumpTo(move)}>{desc}</button>
-        </li>
+        </ul>
       );
     });
 
