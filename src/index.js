@@ -12,13 +12,6 @@ function Square(props) {
 
 class Board extends React.Component {
 
-  restartGame(event) {
-    this.state = {
-      squares: Array(9).fill(null),
-      xIsNext: true,
-    };
-  }
-
   renderSquare(i) {
     return (
       <Square
@@ -48,7 +41,6 @@ class Board extends React.Component {
           {this.renderSquare(7)}
           {this.renderSquare(8)}
         </div>
-        <a href="" className="button" onClick={ this.restartGame.bind(this) }><button>Restart Game</button></a>
       </div>
 
     );
@@ -99,7 +91,7 @@ class Game extends React.Component {
     const moves = history.map((step, move) => {
       const desc = move ?
         'Go to move #' + move :
-        'Go to game start';
+        'Restart Game';
       return (
         <li li key={move}>
           <button onClick={() => this.jumpTo(move)}>{desc}</button>
