@@ -4,7 +4,6 @@ body {
   font-family: futura;
   color: orange;
   background-color: black;
-  padding: 40px;
   margin: 10px;
   vertical-align: center;
   display: flex;
@@ -56,11 +55,12 @@ ol, ul {
 }
 
 .game {
-  margin-top: -30px;
+  margin: 10px;
   display: flex;
   flex-direction: row;
 }
 
 .game-info {
   margin-left: 20px;
+  margin: 50px;
 }
