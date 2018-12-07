@@ -1,45 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tic Tac Toe
 
-## Available Scripts
+[App in deployment](http://tic-tac-toe-mhus25.surge.sh/)
 
-In the project directory, you can run:
+An interactive two player game of tic-tac-toe game with ReactJS
 
-### `npm start`
+## Technologies
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* ReactJS, HTML & CSS
+* Testing: Jest & Enzyme
+* CI: Travis CI
+* Deployment Surge.sh
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Motivations for this project
 
-### `npm test`
+* To familiarise with ReactJS
+* Test using Jest npm package & Enzyme testing utility
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Two player game ('X' & 'O')
+* Turns alternate until someone wins or board is filled
+* Indicates when a player has won the game
+* Stores a game’s history
+* Can view and return to previous versions of game's board
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting started
 
-### `npm run eject`
+### To set up the project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. clone repo to your local machine `git clone https://github.com/MHUS25/tic-tac-toe.git`
+2. Run the command `npm install`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Start server `npm start`
+2. visit local host on port 3000
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Running tests
 
-## Learn More
+`npm test`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# tic-tac-toe
+## Next steps for extending the application:
+
+* Highlight three squares that caused a win
+* Status updates to draw when no one wins
+
+## Acknowledgments
+
+https://reactjs.org/tutorial/tutorial.html#implementing-time-travel
+
+https://itnext.io/learning-to-write-react-tests-on-example-of-react-tic-tac-toe-app-acf7ae2b94b8
