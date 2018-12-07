@@ -48,7 +48,7 @@ An interactive two player game of tic-tac-toe built with ReactJS.
 * Highlight three squares that caused a win
 * Status updates to draw when no one wins
 
-## Acknowledgments
+## Acknowledgements
 
 https://reactjs.org/tutorial/tutorial.html
 
