@@ -4,12 +4,3 @@ node_js:
 
 script:
   - npm test
-  - npm run build
-
-deploy:
-  provider: surge
-  domain: http://tic-tac-toe-mhus25.surge.sh/
-  project: ./static/
-  skip_cleanup: true
-on:
-  branch: master
