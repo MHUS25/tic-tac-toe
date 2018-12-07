@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env CI=true react-scripts build && cpy build/index.html build --rename=200.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
