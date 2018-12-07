@@ -1,15 +1,10 @@
 language: node_js
 node_js:
-  - "stable"
-cache:
-  directories:
-    - node_modules
-script:
-  - npm run build
+  - "node"
+
 deploy:
   provider: surge
+  project: ./static/
   domain: http://tic-tac-toe-mhus25.surge.sh/
-  project: ./build/
-  skip_cleanup: true
 on:
   branch: master
