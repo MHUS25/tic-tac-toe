@@ -1,10 +1,19 @@
 language: node_js
 node_js:
-  - "node"
-
+  - "stable"
+cache:
+  directories:
+    - node_modules
+script:
+  - npm test
+  - npm run build
+env:
+  - SURGE_LOGIN=mmhussein125@gmail.com
+  - SURGE_TOKEN=11a4cb5405b155c0ad4b571ea6723f90
 deploy:
   provider: surge
-  project: ./static/
   domain: http://tic-tac-toe-mhus25.surge.sh/
+  project: ./build/
+  skip_cleanup: true
 on:
   branch: master
