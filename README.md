@@ -2,25 +2,25 @@
 
 [App in deployment](http://tic-tac-toe-mhus25.surge.sh/)
 
-An interactive two player game of tic-tac-toe game with ReactJS
+An interactive two player game of tic-tac-toe game built with ReactJS
 
 ## Technologies
 
 * ReactJS, HTML & CSS
 * Testing: Jest & Enzyme
 * CI: Travis CI
-* Deployment Surge.sh
+* Deployment: Surge.sh
 
 ## Motivations for this project
 
 * To familiarise with ReactJS
-* Test using Jest npm package & Enzyme testing utility
+* Write unit tests using Jest & Enzyme
 
 
 ## Features
 
 * Two player game ('X' & 'O')
-* Turns alternate until someone wins or board is filled
+* Turns alternate until a player wins or the board is filled
 * Indicates when a player has won the game
 * Stores a game’s history
 * Can view and return to previous versions of game's board
@@ -36,7 +36,7 @@ An interactive two player game of tic-tac-toe game with ReactJS
 ## Usage
 
 1. Start server `npm start`
-2. visit local host on port 3000
+2. Visit `http://localhost:3000` in your browser
 
 ## Running tests
 
@@ -50,6 +50,6 @@ An interactive two player game of tic-tac-toe game with ReactJS
 
 ## Acknowledgments
 
-https://reactjs.org/tutorial/tutorial.html#implementing-time-travel
+https://reactjs.org/tutorial/tutorial.html
 
 https://itnext.io/learning-to-write-react-tests-on-example-of-react-tic-tac-toe-app-acf7ae2b94b8
