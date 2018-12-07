@@ -2,7 +2,7 @@
 
 [App in production](http://tic-tac-toe-mhus25.surge.sh/)
 
-An interactive two player game of tic-tac-toe game built with ReactJS
+An interactive two player game of tic-tac-toe built with ReactJS.
 
 ## Technologies
 
