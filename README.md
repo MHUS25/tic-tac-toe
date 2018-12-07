@@ -8,7 +8,6 @@ An interactive two player game of tic-tac-toe built with ReactJS.
 
 * ReactJS, HTML & CSS
 * Testing: Jest & Enzyme
-* CI: Travis CI
 * Deployment: Surge.sh
 
 ## Motivations for this project
