@@ -3,10 +3,10 @@ node_js:
 - "stable"
 before_script:
 - npm install
-script:
-- npm run build
-deploy:
-  provider: surge
-  project: ./build/
-  domain: tic-tac-toe-mhus25.surge.sh
-  skip_cleanup: true
+# script:
+# - npm run build
+# deploy:
+#   provider: surge
+#   project: ./build/
+#   domain: tic-tac-toe-mhus25.surge.sh
+#   skip_cleanup: true
