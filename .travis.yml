@@ -9,7 +9,7 @@ script:
 deploy:
   provider: surge
   domain: http://tic-tac-toe-mhus25.surge.sh/
-  project: ./build/
+  project: ./static/
   skip_cleanup: true
 on:
   branch: master
