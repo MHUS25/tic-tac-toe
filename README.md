@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/MHUS25/tic-tac-toe.svg?branch=master)](https://travis-ci.org/MHUS25/tic-tac-toe)
 ## Tic Tac Toe
 
 [App in production](http://tic-tac-toe-mhus25.surge.sh/)
