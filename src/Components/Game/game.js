@@ -54,8 +54,10 @@ class Game extends React.Component {
     });
 
     let status;
-    if (winner) {
+    if (winner && winner != 'draw') {
       status = 'Winner: ' + winner;
+    } else if (winner && winner === 'draw'){
+        status = 'It\'s a Draw!';
     } else {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
@@ -92,6 +94,8 @@ function calculateWinner(squares) {
     const [a, b, c] = lines[i];
     if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
       return squares[a];
+    } else if(!squares.includes(null)){
+        return 'draw';
     }
   }
   return null;
