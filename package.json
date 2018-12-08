@@ -27,6 +27,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "surge": "^0.20.1"
   }
 }
