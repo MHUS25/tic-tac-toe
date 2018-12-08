@@ -22,10 +22,14 @@ An interactive two player game of tic-tac-toe built with ReactJS.
 
 * Two player game ('X' & 'O')
 * Turns alternate until a player wins or the board is filled
-* Indicates when a player has won the game
+* Indicates when a player has won the game and prevents further moves on board after a win
+* Indicates when a game ends in a draw
 * Stores a game’s history
 * Can view and return to previous versions of game's board
 
+## Approach
+
+Three Components: `Game`, `Board` & `Square`
 
 ## Getting started
 
@@ -44,10 +48,10 @@ An interactive two player game of tic-tac-toe built with ReactJS.
 `npm test`
 
 
-## Next steps for extending the application:
+## Some next steps:
 
-* Highlight three squares that caused a win
-* Status updates to draw when no one wins
+* To extend the application, highlight the three squares that caused a win
+* Refactor & extract some logic out of `Game` Component
 
 ## Acknowledgements
 
