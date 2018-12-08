@@ -5,9 +5,9 @@ before_script:
 - npm install
 script:
 - npm test
-# - npm run build
-# deploy:
-#   provider: surge
-#   project: ./build/
-#   domain: tic-tac-toe-mhus25.surge.sh
-#   skip_cleanup: true
+- npm run build
+deploy:
+  provider: surge
+  project: ./build/
+  domain: tic-tac-toe-mhus25.surge.sh
+  skip_cleanup: true
